@@ -5,5 +5,11 @@
 
 ### 변수(variable)
 
-- const(=constant=상수=변하지 않는 값) 사용
 - 길이가 긴 변수 선언 시 CamelCase(띄어쓰기 대신 대문자로 단어 구별)
+- const(=constant=상수=변하지 않는 값) 사용
+  - 재선언 금지, 재할당 금지
+- let 사용
+  - 재선언 금지, 재할당 가능
+- var 사용
+  - 재선언 가능, 재할당 가능
+- always const, sometimes let, never var ~~!
