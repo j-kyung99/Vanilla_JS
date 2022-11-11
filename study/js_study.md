@@ -13,3 +13,8 @@
 - var 사용
   - 재선언 가능, 재할당 가능
 - always const, sometimes let, never var ~~!
+
+### data type
+
+- null : 컴퓨터에 값이 없음을 의도적으로 알리기 위해 채워진 값
+- undefined : 변수에 값을 지정하지 않으면 메모리 상에 자리는 존재, but 값이 채워지지 않은 채로 존재
