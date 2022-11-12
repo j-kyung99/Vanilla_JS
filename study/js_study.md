@@ -24,3 +24,10 @@
 - property를 가진 데이터 저장
 - {}(중괄호)를 사용함
 - 설명이 필요하지 않은 데이터 리스트들은 array, 설명이 필요한 정보가 담긴 데이터 리스트들은 object!
+
+### Function
+
+- 함수 기본 구조
+  - function plus(x,y){}
+- 객체 안에서의 함수 구조
+  - plus: function(){}
