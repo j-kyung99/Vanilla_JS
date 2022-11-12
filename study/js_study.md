@@ -31,3 +31,14 @@
   - function plus(x,y){}
 - 객체 안에서의 함수 구조
   - plus: function(){}
+
+### prompt()
+
+- 사용자에게 창을 띄워 값을 받아냄
+- 답을 할 때 까지 코드 실행을 일시정지 시킴
+
+### type 변환
+
+- type 확인 방법 => typeof 변수
+- string을 number로 변환해주는 함수는 parseInt();
+  - number가 아닌 type 입력 경우 NaN
