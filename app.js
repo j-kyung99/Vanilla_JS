@@ -1,8 +1,7 @@
-const a = 5;
-const b = 2;
-const myName = "gang";
+function sayHello() {
+  console.log("Hello my name is ");
+}
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello " + myName);
+sayHello("gang");
+sayHello("nico");
+sayHello("dal");
