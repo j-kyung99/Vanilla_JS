@@ -42,3 +42,8 @@
 - type 확인 방법 => typeof 변수
 - string을 number로 변환해주는 함수는 parseInt();
   - number가 아닌 type 입력 경우 NaN
+
+### Document Object
+
+- Javascript와 HTML은 이미 연결되어 있음
+  - 불러올 수도 있고, 수정도 가능함!
