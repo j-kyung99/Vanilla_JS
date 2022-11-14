@@ -59,3 +59,12 @@
 - getElementByTagName() : name 할당 가능(array 반환)
 - querySelector : element를 CSS selector 방식으로 검색 가능(ex. h1:first-child), 단 하나의 element만 return(여러 개 있을 시 첫번째 element만 가져옴)
 - querySelector : 조건에 맞는 element를 다 가져옴(array 반환)
+
+### Events
+
+- element의 내부를 보려면 console.dir()
+- element중 on이 붙은 것들은 event(어떤 행위)
+- 모든 event는 js가 listen 할 수 있음
+- eventListner : event를 listen -> js에게 무슨 event를 listen 하고 싶은 지 알려주어야 함
+- a.addEventListener("b"): 누군가가 a를 b하는 것을 listen
+- a.addEventListener("b", function이름): a가 b하는 경우 function이 동작되기를 원함 -> js가 function 실행을 대신 눌러주길 바라는 경우이므로, 반드시 ()인 실행버튼을 적으면 안됨
