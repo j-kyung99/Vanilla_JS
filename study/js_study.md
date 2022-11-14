@@ -47,3 +47,8 @@
 
 - Javascript와 HTML은 이미 연결되어 있음
   - 불러올 수도 있고, 수정도 가능함!
+
+### HTML in Javascript
+
+- document.getElementById("")은 html에 있는 id를 불러올 수 있음
+- js는 html이 표현하는 object를 보여줌 + html 항목을 불러온 뒤 변경 가능
