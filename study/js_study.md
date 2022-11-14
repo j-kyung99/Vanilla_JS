@@ -52,3 +52,10 @@
 
 - document.getElementById("")은 html에 있는 id를 불러올 수 있음
 - js는 html이 표현하는 object를 보여줌 + html 항목을 불러온 뒤 변경 가능
+
+### Searching For Elements
+
+- getElementByClassName() : 많은 element를 가져올 때 씀(array 반환)
+- getElementByTagName() : name 할당 가능(array 반환)
+- querySelector : element를 CSS selector 방식으로 검색 가능(ex. h1:first-child), 단 하나의 element만 return(여러 개 있을 시 첫번째 element만 가져옴)
+- querySelector : 조건에 맞는 element를 다 가져옴(array 반환)
