@@ -73,3 +73,10 @@
 - window는 기본적으로 제공됨
 - .addEventListener("click", -) 은 .onclick과 동일하지만 전자를 선호
   - .removeEventListener 통해서 event listener를 제거할 수 있기 때문
+
+### CSS in Javascript
+
+- classList : class들을 목록으로 작업할 수 있게 만들어줌
+  - HTML element가 가지고있는 요소를 사용
+  - contains : 우리가 명시한 class가 HTML element의 class에 포함되어 있는지에 대한 여부를 알려줌
+  - toggle : 토큰이 존재하면 제거, 존재하지 않으면 추가
