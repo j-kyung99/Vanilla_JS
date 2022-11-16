@@ -73,6 +73,8 @@
 - window는 기본적으로 제공됨
 - .addEventListener("click", -) 은 .onclick과 동일하지만 전자를 선호
   - .removeEventListener 통해서 event listener를 제거할 수 있기 때문
+- .preventDefault()는 브라우저가 기본 동작을 실행하지 못하게 막음
+  - form을 submit하면 브라우저는 기본적으로 새로고침을 함 -> preventDefault를 추가함으로써 브라우저의 기본 동작(새로고침)을 막음
 
 ### CSS in Javascript
 
