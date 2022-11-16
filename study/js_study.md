@@ -83,3 +83,8 @@
   - HTML element가 가지고있는 요소를 사용
   - contains : 우리가 명시한 class가 HTML element의 class에 포함되어 있는지에 대한 여부를 알려줌
   - toggle : 토큰이 존재하면 제거, 존재하지 않으면 추가
+
+### 알아두기
+
+- "Hello! " + username 은 \`Hello ${username}`과 똑같음
+  - 후자의 방법을 더 선호하는 편임
