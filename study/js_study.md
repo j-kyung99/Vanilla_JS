@@ -68,6 +68,7 @@
 - eventListner : event를 listen -> js에게 무슨 event를 listen 하고 싶은 지 알려주어야 함
 - a.addEventListener("b"): 누군가가 a를 b하는 것을 listen
 - a.addEventListener("b", function이름): a가 b하는 경우 function이 동작되기를 원함 -> js가 function 실행을 대신 눌러주길 바라는 경우이므로, 반드시 ()인 실행버튼을 적으면 안됨
+  - addEventListener 안에 있는 함수는 직접 실행하지 않음!! 브라우저가 해주는 것임!!
 - document의 body, head, title 이런 속성들은 중요하기 때문에 document.body.style 식의 명령이 허용되지만 div같은 속성은 호출이 되지 않음
   - div같은 나머지 element 들은 querySelector나 getElementById로 불러와야 됨
 - window는 기본적으로 제공됨
