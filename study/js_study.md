@@ -88,3 +88,9 @@
 
 - "Hello! " + username 은 \`Hello ${username}`과 똑같음
   - 후자의 방법을 더 선호하는 편임
+
+### Intervals
+
+- interval : 매번 일어나야 하는 무언가를 뜻함
+- setInterval(실행할 함수 이름, 실행할 함수의 주기);
+  - 주기는 ms단위임
