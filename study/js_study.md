@@ -93,4 +93,10 @@
 
 - interval : 매번 일어나야 하는 무언가를 뜻함
 - setInterval(실행할 함수 이름, 실행할 함수의 주기);
-  - 주기는 ms단위임
+  - 주기는 ms단위
+
+### Timeouts
+
+- Timeout : 한 번만 실행
+- setTimeout(실행할 함수 이름, 실행할 함수의 주기);
+  - 주기는 ms단위
