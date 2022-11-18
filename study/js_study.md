@@ -100,3 +100,16 @@
 - Timeout : 한 번만 실행
 - setTimeout(실행할 함수 이름, 실행할 함수의 주기);
   - 주기는 ms단위
+
+### Math
+
+- Math.round() : 반올림
+- Math.celi() : 올림
+- Math.floor() : 내림
+- Math.random() : 0부터 1사이 무작위의 값을 반환
+
+### JS -> html 생성
+
+- document.createElement("") ""안에 html tag 작성
+- appendChild() : 함수 안의 경로에 정의한 값을 가장 뒤에 추가
+- prependChild() : 가장 앞에 추가
