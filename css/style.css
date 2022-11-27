@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
 }
 
@@ -19,7 +18,19 @@ img {
     right:0px;
     bottom:0px;
     z-index: -1;
-    opacity:60%;
+    opacity:80%;
+}
+
+#login-form {
+    margin-top: 180px;
+}
+
+#greeting {
+    margin-top: 180px;
+    margin-bottom: 0px;
+    color:white;
+    font-size: 60px;
+    text-align: center;
 }
 
 #login-form input:first-child {
@@ -47,4 +58,10 @@ img {
 
 #login-form input:last-child {
     display: none;
+}
+
+#clock {
+    color: white;
+    font-size: 130px;
+    margin-top: 0px;
 }
