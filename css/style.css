@@ -28,7 +28,7 @@ img {
 #greeting {
     margin-top: 180px;
     margin-bottom: 0px;
-    color:white;
+    color:black;
     font-size: 60px;
     text-align: center;
 }
@@ -61,7 +61,7 @@ img {
 }
 
 #clock {
-    color: white;
+    color: black;
     font-size: 130px;
     margin-top: 0px;
 }

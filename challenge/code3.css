@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    align-items: center;
+  }
+  
+  #max input {
+    margin-left: 10px;
+  }
+  
+  #result span {
+    font-weight: 900;
+  }
+  
