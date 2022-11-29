@@ -113,3 +113,7 @@
 - document.createElement("") ""안에 html tag 작성
 - appendChild() : 함수 안의 경로에 정의한 값을 가장 뒤에 추가
 - prependChild() : 가장 앞에 추가
+
+### 알아두면 좋음
+
+- >은 직속 자식 속성을 나타냄
