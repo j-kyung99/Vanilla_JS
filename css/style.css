@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .hidden {
     display: none;
 }
@@ -12,48 +33,57 @@ body {
 img {
     position:absolute;
     width:100%;
-    height:100%;
+    height:100vh;
     left: 0px;
     top: 0px;
     right:0px;
     bottom:0px;
     z-index: -1;
-    opacity:80%;
+    opacity:60%;
 }
 
 #login-form {
-    margin-top: 180px;
+    margin-top: 150px;
+}
+
+#todo-form {
+    margin-top: -60px;
 }
 
 #greeting {
-    margin-top: 180px;
+    margin-top: 150px;
     margin-bottom: 0px;
     color:black;
     font-size: 60px;
     text-align: center;
+    font-family: 'BMDOHYEON';
 }
 
 #login-form input:first-child {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 3px white solid;
+    border-bottom: 3px black solid;
     background-color: transparent;
-    width: 500px;
+    width: 600px;
     height: 70px;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
+    font-family: 'BMDOHYEON';
 }
 
-#login-form input:first-child:focus {
+#login-form input:first-child:focus,
+#todo-form input:focus {
     outline: none;
-    color: white;
+    color: black;
 }
 
-#login-form input:first-child::placeholder {
-    color: white;
-    font-size: 50px;
+#login-form input:first-child::placeholder,
+#todo-form input::placeholder {
+    color: black;
+    font-size: 45px;
     text-align: center;
+    font-family: 'BMDOHYEON';
 }
 
 #login-form input:last-child {
@@ -62,6 +92,61 @@ img {
 
 #clock {
     color: black;
-    font-size: 130px;
-    margin-top: 0px;
+    font-size: 120px;
+    margin-top: 50px;
+    font-family: 'LINESeedKR-Bd';
+}
+
+#todo-form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px black solid;
+    background-color: transparent;
+    width: 450px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'BMDOHYEON';
+}
+
+#todo-form input::placeholder{
+    font-family: 'BMDOHYEON';
+    font-size: 30px;
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-list span{
+    font-family: 'BMDOHYEON';
+    font-size: 22px;
+}
+
+#todo-list button {
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+}
+
+
+#quote {
+    position: fixed;
+    bottom: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'GmarketSansMedium';
+}
+
+#weather {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    right: 7px;
+    font-family: 'BMDOHYEON';
 }
